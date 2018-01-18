@@ -17,26 +17,6 @@ for i in input_f:
 
 
 
-
-
-
-
-'''
-for line in input_f:
-
-    item = line.split(',') 
-
-    if(int(item[3]) > 1000):
-
-        new_line = "{},{},{}".format(str(item[0]),str(item[1]),str(item[3]))
-
-        output_f.write(new_line + '\n')
-
-
-
-
-
-output_f.close()
-
-input_f.close()'''
+for element in input_f:
+    print(element)
 
