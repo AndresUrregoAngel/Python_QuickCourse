@@ -17,14 +17,14 @@ subjects:
 * Conditionals (IF, ELSE) - Done
 * Data structures (Lists, Tuples) - Done
 * Files read/write - Done
-* Methods and functions 
+* Methods and functions - Done
 * Exception
 * SQLite manipulation
 
 **Oriented Object programming**
 * Classes
   * Attributs and methods
-* Modules development approach   
+* Modules development approach - Done   
 * Inheritance
 
 **Django**
