@@ -1,0 +1,16 @@
+Using as data source the file posted in the data folder under the name titanic. Unzip it locally and answer the follow questions using:
+  * methodes
+  *Loops : While or For
+  *Lists
+  
+Questions:
+  * Creates a methode that will be able to return how many woman or man are included in a list based in the column sex of the file
+  * Answer how many people survived
+  * Create a methode to read a list based on age and then will be able to say how many people is considered young, mature and old.
+      young  less than 30
+      mature between 31 and 50 
+      old greater than 50
+  * How many people per class died
+  * Plus Bonus: Deploy a modular solution to pread out the operations from the reader(main).
+  
+Delivery Jan 26 2018
