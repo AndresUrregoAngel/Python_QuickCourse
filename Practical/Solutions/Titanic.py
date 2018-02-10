@@ -26,11 +26,38 @@ for i in f:
     else:
         female= female + 1
 
-
-
-
 print( male, female)
         #new.append(x[5])
+f.close()
+f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
+survived= 0
+next(f)
+for i in f:
+    x= i.split(',')
+    if (int(x[1]) == 1):
+        survived = survived + 1
+print(survived)
+
+f.close()
+f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
+next(f)
+remplazar = 0
+for e in f:
+    x= e.split(',')
+    #print(type (x[6]), x[6])
+    z= x[6].replace ("", str(remplazar))
+
+    print(x[6],z)
+
+
+    #if (int (x[6]) < 30):
+     #   print(x[6])
+
+
+
+
+
+
 
 
 
