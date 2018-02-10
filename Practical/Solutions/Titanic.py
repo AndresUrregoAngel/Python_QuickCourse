@@ -12,6 +12,7 @@ for e in titanic:
         sex.append(int(x[4]))
         print(sex)
 '''
+'''
 f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
 c= open("C:\\Users\\Hewlett Packard\Documents\\Ejercicios Python\\titanic_2.txt", 'w')
 new= []
@@ -39,16 +40,17 @@ for i in f:
 print(survived)
 
 f.close()
-f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
+'''
+#f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
+f = open("E:\\Sources\\titanic.csv","r")
 next(f)
-remplazar = 0
+age_list = []
 for e in f:
     x= e.split(',')
-    #print(type (x[6]), x[6])
-    z= x[6].replace ("", str(remplazar))
-
-    print(x[6],z)
-
+    if (x[6] == ''):
+        age_list.append(0)
+    else:
+        age_list.append(float(x[6]))
 
     #if (int (x[6]) < 30):
      #   print(x[6])
