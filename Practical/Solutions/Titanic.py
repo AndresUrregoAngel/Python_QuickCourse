@@ -17,12 +17,20 @@ c= open("C:\\Users\\Hewlett Packard\Documents\\Ejercicios Python\\titanic_2.txt"
 new= []
 counter= 0
 male= 0
+female= 0
+next(f)
 for i in f:
     x= i.split(',')
     if (x[5] == str ("male")):
         male= male + 1
-        print(male)
-        #new.append(x[5])
     else:
-        
+        female= female + 1
+
+
+
+
+print( male, female)
+        #new.append(x[5])
+
+
 
