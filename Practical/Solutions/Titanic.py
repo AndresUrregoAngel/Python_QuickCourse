@@ -41,8 +41,8 @@ print(survived)
 
 f.close()
 '''
-#f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
-f = open("E:\\Sources\\titanic.csv","r")
+f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
+#f = open("E:\\Sources\\titanic.csv","r")
 next(f)
 age_list = []
 for e in f:
@@ -54,6 +54,32 @@ for e in f:
 
     #if (int (x[6]) < 30):
      #   print(x[6])
+young= 0
+mature= 0
+old= 0
+young_list= []
+mature_list= []
+old_list= []
+for age in age_list:
+    if (age < 30 ):
+        young= age + 1
+        young_list.append(young)
+    if (age <= 31 and 51):
+            mature+= 1
+            mature_list.append(mature)
+    if (age > 51 ):
+        old =old + 1
+        old_list.append(old)
+
+
+
+
+print("the number of young people who climbed the Titanic was",young)
+print("the number of mature people who climbed the Titanic was",mature)
+print("the number of old people who climbed the Titanic was",old)
+print("List Young",young_list)
+print("List Mature",mature_list)
+print("List Old",old_list)
 
 
 
