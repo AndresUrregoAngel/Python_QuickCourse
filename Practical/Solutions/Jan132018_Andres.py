@@ -75,3 +75,40 @@ while(controler != True):
             print(year)
 
        controler = True
+    
+ ### Plus with a methode 
+
+input_f = open("C:\\Users\\P928260\\Downloads\\ssa-pop3-eng.csv","r")
+next(input_f)
+
+years_unique = []
+
+for line in input_f:
+    item = line.split(',')
+    year_f = item[0][:4]
+    if (year_f not in years_unique):
+        years_unique.append(year_f)
+
+
+input_f.close()
+
+
+def calculaterows(years,file):
+    for year in years_unique:
+            input_f = open(file,"r")
+            next(input_f)
+            counter_rows = 0
+            
+            for line in input_f:
+                item = line.split(',')
+                year_f = item[0][:4]
+                if (year == year_f):
+                    counter_rows += 1
+                    
+            input_f.close()
+            
+            print("the year {} has {} of rows".format(year,counter_rows))
+    
+    
+path = "C:\\Users\\P928260\\Downloads\\ssa-pop3-eng.csv"
+calculaterows(years_unique,path)   
