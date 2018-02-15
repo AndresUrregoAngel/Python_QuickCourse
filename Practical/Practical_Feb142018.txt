@@ -1,0 +1,15 @@
+**Please keep in mind to solve the requirements below apply**:
+* Loops (While, for)
+* Methods
+* Get smaterter and handy your code
+
+Questions:
+* How many processes or penalties by region (nivel) exist?
+* The total amount paied by region (nivel)
+* how many rows do we have in the file?
+* How much has been paid by Transmilenio? 
+* How much has been paid by Bosa?
+* How much has been paid by year (Fecha de publicacion)? 
+* Supose the goverment has decided to reduce 30 % the sanctions by year , what should be the new amounts by year?
+
+Any question or doubt please let me know ASAP.
