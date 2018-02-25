@@ -2,8 +2,8 @@
     #print (f.read())
 
 #new_file= open("C:\\Users\\Hewlett Packard\Documents\\Ejercicios Python\\titanic_2.txt", 'w')
-'''
-next(titanic)
+
+#next(titanic)
 sex= []
 counter= 0
 for e in titanic:
@@ -11,8 +11,7 @@ for e in titanic:
     if (x[2]== "Female" and "Masculine"):
         sex.append(int(x[4]))
         print(sex)
-'''
-'''
+
 f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
 c= open("C:\\Users\\Hewlett Packard\Documents\\Ejercicios Python\\titanic_2.txt", 'w')
 new= []
@@ -40,7 +39,7 @@ for i in f:
 print(survived)
 
 f.close()
-'''
+
 f= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv", 'r')
 #f = open("E:\\Sources\\titanic.csv","r")
 next(f)
@@ -71,15 +70,14 @@ for age in age_list:
         old =old + 1
         old_list.append(old)
 
-
-
-
 print("the number of young people who climbed the Titanic was",young)
 print("the number of mature people who climbed the Titanic was",mature)
 print("the number of old people who climbed the Titanic was",old)
 print("List Young",young_list)
 print("List Mature",mature_list)
 print("List Old",old_list)
+
+
 
 
 

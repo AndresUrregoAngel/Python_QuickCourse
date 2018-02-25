@@ -39,3 +39,6 @@ else:
 #	haga X
 #Sino:
 #	haga Y
+fine= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\Multas_y_Sanciones_SECOP_I.csv", 'r')
+for i in fine:
+    print(i)

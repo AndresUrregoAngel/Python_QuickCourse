@@ -42,7 +42,7 @@ print("The number of rows that are in the files are:", str(counter))
 
 ## Bonus point to get the rows qty per year using a custumized method
 
-input_f = open("C:\\Users\\P928260\\Downloads\\ssa-pop3-eng.csv","r")
+input_f = open("C:\\Users\\Hewlett Packard\Documents\\Ejercicios Python\\pensionados.txt","r")
 next(input_f)
 
 years_unique = []
@@ -74,7 +74,7 @@ def calculaterows(years,file):
             print("the year {} has {} of rows".format(year,counter_rows))
     
     
-path = "C:\\Users\\P928260\\Downloads\\ssa-pop3-eng.csv"
+path = "C:\\Users\\Hewlett Packard\Documents\\Ejercicios Python\\pensionados.txt"
 calculaterows(years_unique,path)   
 
 

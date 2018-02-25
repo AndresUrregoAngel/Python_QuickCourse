@@ -49,7 +49,7 @@ def  classes_counter (class_list):
 
 ###################### Solutions  ###################    
 
-file_name = 'titanic.csv' ## file path
+file_name = "C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\titanic1.csv" ## file path
 info = open_file(file_name) ## Open the file
 gender_list = [] ## Create a list based in the passagers gender
 survived_list = [] ## List to keep the survival info 
