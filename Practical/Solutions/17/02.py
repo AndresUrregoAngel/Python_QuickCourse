@@ -35,7 +35,7 @@ def conteo_filas (fila):
 
     return counter
 
-def suma_lista (l): # Es un metodo con el fin de hacer una suma 
+def suma_lista (l): # Es un metodo con el fin de hacer una suma
     suma= 0
     for e in l:
         suma = suma + e
@@ -55,17 +55,23 @@ territory= []
 new_list= []
 zona= []
 multas_transmilenio= []
+multas_bosa= []
 
 
 next(file)
 for i in file:
     z= i.split(",")
-    #print(z[9])
+    #print(z[0])
     if ("TRANSMILENIO" in z[0]):
         multas_transmilenio.append (int(z[9]))
+    if ("ALCALDAìA LOCAL DE BOSA" in z[0]):
+        multas_bosa.append(int(z[9]))
+
+#for i in multas_bosa:
+  #  print(i)
 
 
-print(suma_lista(multas_transmilenio))
+
 """
     territory.append(z[3])
     new_list.append(z[3])
@@ -97,3 +103,5 @@ for e in file:
 conteo_smaterter(territory)
 #print("El numero de filas es:", conteo_filas(new_list))
 #print("Hya:", suma(zona,'BOGOTAü D.C. - TRANSMILENIO', multa))
+print("Transmilnio pago una multa de: ", suma_lista(multas_transmilenio))
+print("Bosa pago una multa de: ", suma_lista(multas_bosa))
