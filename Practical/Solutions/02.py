@@ -41,6 +41,27 @@ def suma_lista (l): # Es un metodo con el fin de hacer una suma
         suma = suma + e
 
     return suma
+def suma_smart (List):
+    any_list: []
+    for year in List:
+        if (year not in any_list):
+            any_list.append (year)
+
+    for i in any_list:
+        sum= 0
+
+        for e in List:
+            if (e ==year):
+                sum= sum + e
+        print("En el año se debe:", sum)
+
+    return
+
+
+
+
+
+
 
 
 
@@ -50,12 +71,13 @@ def suma_lista (l): # Es un metodo con el fin de hacer una suma
 
 
 #########Solutions##########
-file= open("C:\\Users\\Hewlett Packard\\Documents\\Ejercicios Python\\Multas_y_Sanciones_SECOP_I.csv", 'r', encoding='cp437')
+file= open("C:\\Users\\Todos\\Documents\\Owen'sExercises\\Curso\\Python_QuickCourse\\Multas_y_Sanciones_SECOP_I.csv", 'r', encoding='cp437')
 territory= []
 new_list= []
 zona= []
 multas_transmilenio= []
 multas_bosa= []
+year=[]
 
 
 next(file)
@@ -100,8 +122,9 @@ for e in file:
     z= i.split(",")
     new_list.append(z[3])
 '''
-conteo_smaterter(territory)
+#conteo_smaterter(territory)
 #print("El numero de filas es:", conteo_filas(new_list))
 #print("Hya:", suma(zona,'BOGOTAü D.C. - TRANSMILENIO', multa))
 print("Transmilnio pago una multa de: ", suma_lista(multas_transmilenio))
 print("Bosa pago una multa de: ", suma_lista(multas_bosa))
+suma_smart(year)
