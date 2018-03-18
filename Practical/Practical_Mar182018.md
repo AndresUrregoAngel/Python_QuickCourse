@@ -3,5 +3,9 @@ Using as data source the file posted in the data folder under the name titanic. 
   *Loops : While or For
   *Lists
   
-Based on the headers and raw data link:URL_to_wiki[https://github.com/AndresUrregoAngel/Python_QuickCourse/blob/master/Data/Salaries.zip]
+Based on the headers and raw data [Salaries](https://github.com/AndresUrregoAngel/Python_QuickCourse/blob/master/Data/Salaries.zip). This information has been found in a very useful repository for colombian developers [here](https://github.com/colombia-dev)
+
+#### Questions:
+
+* How many rows has the file?
 
