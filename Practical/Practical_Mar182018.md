@@ -18,5 +18,5 @@ The file [Salaries](https://github.com/AndresUrregoAngel/Python_QuickCourse/blob
 5. What is the most popular lenguage programming?
 6. What is the avarage age for programmers in Python?
 7. How many programmers by city
-..* What is the most popular language programming in Bogota and the avg salary
-..7.1 For Bogota how many programmers have children and how many?
+..7. What is the most popular language programming in Bogota and the avg salary
+..7. For Bogota how many programmers have children and how many?
