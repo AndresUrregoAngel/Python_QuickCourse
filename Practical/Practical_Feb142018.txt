@@ -4,11 +4,11 @@
 * Get smaterter and handy your code
 
 Questions:
-* How many processes or penalties by region (Orden) exist?
+* How many processes or penalties by region (Orden) exist? done
 * The total amount paied by region (nivel)
 * how many rows do we have in the file?
-* How much has been paid by Transmilenio? 
-* How much has been paid by Bosa?
+* How much has been paid by Transmilenio? done
+* How much has been paid by Bosa? done
 * How much has been paid by year (Fecha de publicacion)? 
 * Supose the goverment has decided to reduce 30 % the sanctions by year , what should be the new amounts by year?
 
