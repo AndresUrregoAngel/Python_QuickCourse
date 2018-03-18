@@ -85,7 +85,7 @@ def compare_lists(list1,list2):
 
 
 #########Solutions##########
-file= open("E:\\Sources\\Multas_y_Sanciones_COL\\Multas_y_Sanciones_SECOP_I.csv", 'r', encoding='cp437')
+file= open("C:\\Users\\Todos\\Documents\\Owen'sExercises\\Curso\\Python_QuickCourse\\Multas_y_Sanciones_COL\\Multas_y_Sanciones_SECOP_I.csv", 'r', encoding='cp437')
 territory= []
 new_list= []
 zona= []
