@@ -16,11 +16,12 @@ def conteo_filas (fila):
 
 
 ########### Solotions #####
-file= open('C:\\Users\\Hewlett Packard\\Documents\\Documentos Python\\Salaries\\rawdata.csv', "r")
+file= open('E:\\Sources\\Salaries\\rawdata.csv', "r") #open('C:\\Users\\Hewlett Packard\\Documents\\Documentos Python\\Salaries\\rawdata.csv', "r")
 new_file= []
 for e in file:
    z= e.split(",")
    new_file.append(z)
+   print(z[1])
 
 ## 1
 print(conteo_filas(new_file))
