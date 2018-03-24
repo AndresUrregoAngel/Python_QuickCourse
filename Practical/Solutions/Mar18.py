@@ -26,26 +26,28 @@ def conteo_smaterter (Plist):
 
     return
 
-def average_rows (any_list,name,list_cost):
+def list_avarage (a_list,b_list):
+    c_list= []
     counter= 0
     sum= 0
     average = 0
-    for e in any_list:
-
-        for i in list_cost:
-        if (e == name ):
-            counter = counter + 1
-            for i in list_cost:
+    for e in a_list:
+        if (e == "Python" ):
+            c_list.append(z[27])
+            for i in c_list:
+                counter = counter + 1
                 sum = sum + int(i)
                 average = sum / counter
-             # print(sum)
-    return counter, average, sum
+    #print(c_list)
+    return average
 
+def conteo (Plist,name):
+    counter = 0
+    for e in Plist:
+        if (e.upper() == name):
+            counter= counter + 1
 
-
-
-
-
+    return counter
 
 
 
@@ -58,17 +60,32 @@ file= open ('C:\\Users\\Hewlett Packard\\Documents\\Documentos Python\\Salaries\
 new_file= []
 lengu_file= []
 salary_list= []
+studies_list= []
+year_list= []
+#next(file)
 for e in file:
    z= e.split(",")
    new_file.append(z)
    lengu_file.append(z[11]) # saving all programming languages in a list
+   studies_list.append(z[13])
+   #year_list.append(z[27])
+   if (z[11] == "Python"):
+        if (z[13] == "universitario"):
+            salary_list.append(z[19])
+
    if (z[11] == "Python"): # If programming language is python
-    salary_list.append(z[19])  # saving in a list the salary
-    
-#print(cost_list)
+       year_list.append(z[27])
 
-#print(lengu_file)
+for e in 
 
+
+
+
+
+
+
+#print(year_list)
+#print(studies_list)
 ## 1
 #print(conteo_filas(new_file))
 
@@ -76,8 +93,25 @@ for e in file:
 #print(conteo_smaterter(lengu_file))
 
 ## 3
-print(average_rows(lengu_file,"Python", cost_list))
-print(cost_list)
+#print("The average salary for people who program in python is:", suma/ counter)
 ## 4
+#print("There are ", conteo(studies_list,"UNIVERSITARIO"), "university students")
+#print("There are ", conteo(studies_list, "TÃ©CNICO"), "technicians")
 
-for e in cost_list
+## 6
+"""
+for e in file:
+   z= e.split(",")
+   if (z[11]== "Python"):
+       year_list.append(z[27])
+print(year_list)
+    
+suma= 0
+counter= 0
+avarage = 0
+for i in year_list:
+    suma = suma + int(i)
+    counter = counter + 1
+    avarage = suma / counter
+print("The average age for Python programmers is: ",avarage)
+"""
