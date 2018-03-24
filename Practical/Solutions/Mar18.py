@@ -57,12 +57,14 @@ def average_rows (any_list,name,list_cost):
 file= open ('C:\\Users\\Hewlett Packard\\Documents\\Documentos Python\\Salaries\\Salaries\\rawdata.csv', "r")
 new_file= []
 lengu_file= []
-cost_list= []
+salary_list= []
 for e in file:
    z= e.split(",")
    new_file.append(z)
-   lengu_file.append(z[11])
-   cost_list.append(z[19])
+   lengu_file.append(z[11]) # saving all programming languages in a list
+   if (z[11] == "Python"): # If programming language is python
+    salary_list.append(z[19])  # saving in a list the salary
+    
 #print(cost_list)
 
 #print(lengu_file)
