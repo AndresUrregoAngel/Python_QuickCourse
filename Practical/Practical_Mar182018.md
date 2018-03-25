@@ -27,6 +27,8 @@ The file [Salaries](https://github.com/AndresUrregoAngel/Python_QuickCourse/blob
 8. What is the most popular language programming in Bogota and the avg salary
 9. For Bogota how many programmers have children and how many kids?
 
+---
+
 #### Plus
 
 1. Create a method to read two list. where one of the list is the filter columns and the second contains the salaries. Example give the avg salaries for programmers in python with university studies.
