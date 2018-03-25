@@ -7,7 +7,7 @@ Based on the headers and raw data [Salaries](https://github.com/AndresUrregoAnge
 
 ***
 <dl>
-<dt>Deadline March 22 2018</dt>
+<dt>Deadline March 22 2018 / New date : March 27</dt>
 </dl>
 
 
@@ -26,3 +26,9 @@ The file [Salaries](https://github.com/AndresUrregoAngel/Python_QuickCourse/blob
 7. How many programmers by city?
 8. What is the most popular language programming in Bogota and the avg salary
 9. For Bogota how many programmers have children and how many kids?
+
+---
+
+#### Plus
+
+1. Create a method to read two list. where one of the list is the filter columns and the second contains the salaries. Example give the avg salaries for programmers in python with university studies.
