@@ -11,3 +11,10 @@ def pair_numbers(numbers):
             counter_pair += 1
 
     return print('in your list were {} of pairs'.format(int(counter_pair)))
+
+def gender_definition(param1):
+    if('woman' in param1.lower() ):
+        print("the gender typed is a beautiful woman")
+    else:
+        print("the gender typed is a handsome man")
+
