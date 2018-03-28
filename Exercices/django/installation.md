@@ -1,6 +1,6 @@
 ### Installing Django
 
-#### Prepare a virtual environment
+#### Prepare a virtual environment / Install server
 
 1. ***Verify the current python version.***
 
