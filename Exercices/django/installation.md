@@ -42,7 +42,7 @@
    
    8. Install django with the command: `pip install django`
    
-   ![Django Installation](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/djangoinstalled.png)
+   ![Django Installation](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/djangoinistalled.png.png)
    
    9. Finally run a command to validate the django version installed: `django-admin  --version`
    10. To exist from the virtual environment type `deactivate`
