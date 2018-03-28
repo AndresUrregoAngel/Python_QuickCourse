@@ -28,7 +28,7 @@
       `print(os.path.dirname(sys.executable))`
       
       *Example:*      
-      ![Python Executable](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/pythonexecutable.jpge)
+      ![Python Executable](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/pythonexecutable.png)
       
     5. Take the note of the python path.
     6. type `exit()` to close the python execution. Then you will keep going in the command console under the folder `VirtualEnvironments`.
@@ -38,7 +38,7 @@
 
   So, python will create the required environment and preinstall an isolated python version completely independent of your windows environment. At the end of this operation you should be already logged in this virtual environment watching the name and the begining of the command line as the example below:
   
-  ![loggedvm](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/loggedvm.png)
+  ![Logged in VM](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/loggedvm.png)
   
       
     
