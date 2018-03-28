@@ -8,7 +8,7 @@
   
     ![Python version](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/pythonversion.png)
   
-2. ***Execute:***
+2. ***Execute:*** [Documentation Virtualenv](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#lsvirtualenv)
 
   * pip install virtualenv
   * pip install virtualenvwrapper-win
@@ -36,9 +36,19 @@
       * `mkvirtualenv --python=<python execution path\python.exe> englishcourse`
       * Andres case: `mkvirtualenv --python=C:\Users\a_urrego\AppData\Local\Programs\Python\Python36-32\python.exe englishcourse`
 
-  So, python will create the required environment and preinstall an isolated python version completely independent of your windows environment. At the end of this operation you should be already logged in this virtual environment watching the name and the begining of the command line as the example below:
+    So, python will create the required environment and preinstall an isolated python version completely independent of your windows environment. At the end of this operation you should be already logged in this virtual environment watching the name and the begining of the command line as the example below:
   
-  ![Logged in VM](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/loggedvm.png)
+   ![Logged in VM](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/loggedvm.png)
+   
+   8. Install django with the command: `pip install django`
+   
+   ![Django Installation](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/djangoinstalled.png)
+   
+   9. Finally run a command to validate the django version installed: `django-admin  --version`
+   10. To exist from the virtual environment type `deactivate`
+   11. To loging again in the environment use `workon englishcourse`
+   
+   
   
       
     
