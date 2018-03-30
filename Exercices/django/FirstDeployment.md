@@ -69,7 +69,7 @@ urlpatterns = [
  6. ***Run the web server*** 
  * Go back into the console and logged in the  `virtual enviroment englishcourse`.
  * Go to the path `C:\Users\a_urrego\Documents\VirtualEnvironments\myfirstproject` and entry the command:
-  * `python manage.py server`
+  * `python manage.py runserver`
  * Automatically the server will be running and you will get in the console:
    ![server running](https://github.com/AndresUrregoAngel/librarydocs/tree/master/python_course/images/runningmyfirstproject.png)
    
