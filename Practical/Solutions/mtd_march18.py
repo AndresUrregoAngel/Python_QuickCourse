@@ -23,9 +23,10 @@ def conteo_smaterter (Plist):
         for line in Plist:
             if(line == item):
                 counter = counter + 1
-        print("- language of Programing: ",item , "were surveyed:",counter)
+        print("-In ",item.lower(), "There are:",counter)
 
     return
+
 
 def list_avarage (a_list,b_list):
     c_list= []
@@ -57,10 +58,27 @@ def smart_avarage (elements_list): # This list must to contain only numeric vari
     accomulative_sum = 0
     for item in elements_list:
         counter += 1  # this variable will count how many elements are in the list
-        accomulative_sum = accomulative_sum + item # this variable will contain the accumulative sum amount
+        accomulative_sum = accomulative_sum + int(item) # this variable will contain the accumulative sum amount
 
     avarage_list = accomulative_sum / counter
 
-    return avarage_list
+    return round(avarage_list,1)
 
 
+def mayor_list (Plist):
+    item_unique = []
+
+    for item in Plist:
+        if (item not in item_unique):
+            item_unique.append(item)
+
+
+    for item in item_unique:
+
+        counter = 0
+        for line in Plist:
+            if(line == item):
+                counter = counter + 1
+    print(max(Plist))
+
+    return
