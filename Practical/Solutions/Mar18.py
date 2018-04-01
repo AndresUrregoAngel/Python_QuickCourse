@@ -10,6 +10,7 @@ PythonUniver_List = []
 studies_list= []
 year_list= []
 city= []
+bogota_list= []
 #next(file)
 for e in file:
    z= e.split(",")
@@ -27,6 +28,13 @@ for e in file:
 
    if (z[11] == "Python"): # If programming language is python
        year_list.append(z[27])
+
+   if ("bogota" in z[32].lower()):
+       bogota_list.append(z[32])
+
+print(city)
+print(bogota_list)
+
 
 
 """
@@ -53,23 +61,16 @@ for e in lengu_file:
     if (int(e) < 315):
         print(e)
 """
-print()
+
 ## 6
 #print("The avarage age for Programmers in Python is: ", smart_avarage(year_list))
 
 
 ## 7
-#print(max(lengu_file))
+#
 #print(conteo_smaterter(lengu_file))
+print(mayor_list(lengu_file))
 
 
-matriz = [[1, 2, 3, 4], [0, 21, 34, 2], [4, 5, 5, 10], [10, 60, 600, 100]]
-
-maximo = matriz[0][2]
-for i in range(len(matriz)):
-    if matriz[i][2] > maximo:
-        maximo = matriz[i][2]
-
-print(maximo)
 
 

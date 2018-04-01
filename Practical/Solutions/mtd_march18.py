@@ -35,7 +35,7 @@ def list_avarage (a_list,b_list):
     average = 0
     for e in a_list:
         if (e == "Python" ):
-            c_list.append(z[27])
+       #     c_list.append(z[27])
             for i in c_list:
                 counter = counter + 1
                 sum = sum + int(i)
@@ -67,6 +67,8 @@ def smart_avarage (elements_list): # This list must to contain only numeric vari
 
 def mayor_list (Plist):
     item_unique = []
+    counter_file= []
+    max_item= []
 
     for item in Plist:
         if (item not in item_unique):
@@ -79,6 +81,17 @@ def mayor_list (Plist):
         for line in Plist:
             if(line == item):
                 counter = counter + 1
-    print(max(Plist))
+                counter_file.append(counter)
 
-    return
+
+    maximo= 0
+    for i in range(len(counter_file)):
+        if (counter_file[i] > maximo):
+            maximo = counter_file[i]
+    if (maximo == i):
+        max_item.append(item)
+
+
+    print("The are more in:", item, 'wdk',maximo)
+
+    return max_item
