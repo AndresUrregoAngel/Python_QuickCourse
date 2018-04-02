@@ -1,8 +1,8 @@
-from Python_QuickCourse.Practical.Solutions.mtd_march18 import conteo_filas,conteo_smaterter,list_avarage,conteo,smart_avarage,mayor_list
+#from Python_QuickCourse.Practical.Solutions.mtd_march18 import conteo_filas,conteo_smaterter,list_avarage,conteo,smart_avarage,mayor_list
 #import conteo_filas,conteo_smaterter,list_avarage,conteo,smart_avarage from Python_QuickCourse.Practical.Solutions.mtd_march18
 
 ########### Solutions ################
-file= open ("C:\\Users\\Todos\\Documents\\Salaries\\Salaries\\rawdata.csv", "r")
+file=   open("E:\\Sources\\Salaries\\rawdata.csv", "r")  #open ("C:\\Users\\Todos\\Documents\\Salaries\\Salaries\\rawdata.csv", "r")
 new_file= []
 lengu_file= []
 Pythonsalary_list = []
@@ -53,7 +53,7 @@ for e in lengu_file:
     if (int(e) < 315):
         print(e)
 """
-print()
+
 ## 6
 #print("The avarage age for Programmers in Python is: ", smart_avarage(year_list))
 
@@ -63,12 +63,16 @@ print()
 #print(conteo_smaterter(lengu_file))
 
 
-matriz = [[1, 2, 3, 4], [0, 21, 34, 2], [4, 5, 5, 10], [10, 60, 600, 100]]
 
-maximo = matriz[0][2]
-for i in range(len(matriz)):
-    if matriz[i][2] > maximo:
-        maximo = matriz[i][2]
+listtest =[9,10,1,5,6,8,23]
+
+maximo = listtest[0] #10
+position = 0
+
+for i in listtest:
+    if (listtest[position] > maximo):
+        maximo = listtest[position]
+    position += 1
 
 print(maximo)
 
