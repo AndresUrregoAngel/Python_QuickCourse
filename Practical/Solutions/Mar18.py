@@ -1,8 +1,9 @@
-#from Python_QuickCourse.Practical.Solutions.mtd_march18 import conteo_filas,conteo_smaterter,list_avarage,conteo,smart_avarage,mayor_list
+from Practical.Solutions.mtd_march18 import conteo_filas,conteo_smaterter,list_avarage,\
+    conteo,smart_avarage,mayor_list,mayor_list_dictionary
 #import conteo_filas,conteo_smaterter,list_avarage,conteo,smart_avarage from Python_QuickCourse.Practical.Solutions.mtd_march18
 
 ########### Solutions ################
-file=   open("E:\\Sources\\Salaries\\rawdata.csv", "r")  #open ("C:\\Users\\Todos\\Documents\\Salaries\\Salaries\\rawdata.csv", "r")
+file=   open("E:\\Sources\\rawdata.csv", "r")  #open ("C:\\Users\\Todos\\Documents\\Salaries\\Salaries\\rawdata.csv", "r")
 new_file= []
 lengu_file= []
 Pythonsalary_list = []
@@ -63,7 +64,7 @@ for e in lengu_file:
 #print(conteo_smaterter(lengu_file))
 
 
-
+"""
 listtest =[9,10,1,5,6,8,23]
 
 maximo = listtest[0] #10
@@ -75,5 +76,6 @@ for i in listtest:
     position += 1
 
 print(maximo)
+"""
 
-
+mayor_list(lengu_file)

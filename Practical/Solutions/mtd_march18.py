@@ -65,7 +65,67 @@ def smart_avarage (elements_list): # This list must to contain only numeric vari
     return round(avarage_list,1)
 
 
+
 def mayor_list (Plist):
+    item_unique = []
+    counter_file = []
+
+    """This for is used to create a list with a unique language programming"""
+    for item in Plist:
+        if (item not in item_unique):
+            item_unique.append(item)
+
+    """This for is used to create a list with the counter of language programming
+        from the original list"""
+    for item in item_unique:
+        counter = 0
+        for line in Plist:
+            if (line == item):
+                counter = counter + 1
+        counter_file.append((item,counter)) # I leave this line at the same level of the for by item
+
+    maximo= 0 # variable used to store the maximum value
+
+    """This loop is used to find out the maximum value of counter by 
+        language programming and save it in a variable"""
+    for languages in counter_file:
+        if (languages[1] > maximo):
+            maximo = languages[1]
+
+    """Looking for the language within the list that match the 
+        value of the variable maximum"""
+    for languages in counter_file:
+        if(languages[1]== maximo):
+            print('the most popular language programming is:',languages)
+
+
+def mayor_list_dictionary (Plist):
+    counter_file = {}  # This is a dictionary structure
+
+    """This for is used to create a key with a unique language programming"""
+    for item in Plist:
+        if (item not in counter_file):
+            key = item # define for every language programming a key for my dictionary
+            counter_file.setdefault(key, []) # Add the key to a dictionary with a default value of  zero
+
+    """This loop is used to find out the maximum value of counter by 
+        language programming and save it the key and value that match with the key"""
+    for key in counter_file.keys():  # I need to go thru the entire list looking for the key in the dictionary
+        counter = 0                  # by every key I use the counter to count the new line
+        for line in Plist:
+            if (line == key):
+                counter = counter + 1
+        counter_file.setdefault(key, []).append(counter) # finally I update the valu of my key with the last
+                                                         # value of counter by key
+
+    maximum_key = max(counter_file, key=counter_file.get)  # I get the key with the maximum value
+
+    for k, v in counter_file.items(): # I look for the key equals to maximum and print it
+        if (k == maximum_key):
+            print('the most popular language programing is {} with {} number of developers'.format(k,v))
+
+
+def mayor_list_oldversion (Plist):
     item_unique = []
     counter_file= []
     max_item= []

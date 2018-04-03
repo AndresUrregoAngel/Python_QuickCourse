@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92a397f-c3b3-441f-8074-5e83f56c1bd5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_QuickCourse.iml" afterPath="$PROJECT_DIR$/.idea/Python_QuickCourse.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Practical/Solutions/Mar18.py" afterPath="$PROJECT_DIR$/Practical/Solutions/Mar18.py" />
+      <change beforePath="$PROJECT_DIR$/Practical/Solutions/mtd_march18.py" afterPath="$PROJECT_DIR$/Practical/Solutions/mtd_march18.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +13,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="mtd_march18.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical/Solutions/mtd_march18.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+              <folding>
+                <element signature="e#66#146#0" expanded="false" />
+                <element signature="e#183#514#0" expanded="false" />
+                <element signature="e#555#871#0" expanded="false" />
+                <element signature="e#902#1018#0" expanded="false" />
+                <element signature="e#1138#1481#0" expanded="false" />
+                <element signature="e#1513#2633#0" expanded="false" />
+                <element signature="e#2675#4032#0" expanded="false" />
+                <element signature="e#4074#4675#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mar18.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical/Solutions/Mar18.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,10 +67,8 @@
         <option value="$PROJECT_DIR$/../Python/pythonaws_s3/uploadingfiles.py" />
         <option value="$PROJECT_DIR$/Exercices/methodes/mt_reader.py" />
         <option value="$PROJECT_DIR$/Exercices/methodes/mt_excutions.py" />
-        <option value="$PROJECT_DIR$/Practical/Solutions/mtd_march18.py" />
         <option value="$PROJECT_DIR$/../Python/various/salaries.py" />
         <option value="$PROJECT_DIR$/../../virtualenvs/myfirstproject/hello/apps.py" />
-        <option value="$PROJECT_DIR$/Practical/Solutions/Mar18.py" />
         <option value="$PROJECT_DIR$/../../virtualenvs/myfirstproject/myfirstproject/urls.py" />
         <option value="$PROJECT_DIR$/../../virtualenvs/myfirstproject/hello/views.py" />
         <option value="$PROJECT_DIR$/../../virtualenvs/projectenglish/course/models.py" />
@@ -51,6 +77,8 @@
         <option value="$PROJECT_DIR$/../../virtualenvs/projectenglish/projectenglish/settings.py" />
         <option value="$PROJECT_DIR$/../../virtualenvs/projectenglish/projectenglish/urls.py" />
         <option value="$PROJECT_DIR$/../../virtualenvs/projectenglish/course/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/Practical/Solutions/Mar18.py" />
+        <option value="$PROJECT_DIR$/Practical/Solutions/mtd_march18.py" />
       </list>
     </option>
   </component>
@@ -83,30 +111,18 @@
           <expand>
             <path>
               <item name="Python_QuickCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectenglish" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_QuickCourse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_QuickCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectenglish" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_QuickCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Practical" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_QuickCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectenglish" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_QuickCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectenglish" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_QuickCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectenglish" type="462c0819:PsiDirectoryNode" />
-              <item name="projectenglish" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_QuickCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Practical" type="462c0819:PsiDirectoryNode" />
+              <item name="Solutions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,12 +254,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="951" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14839095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3341289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -261,7 +277,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -429,20 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical/Solutions/Mar18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical/Solutions/mtd_march18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="892">
-          <caret line="81" column="21" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../virtualenvs/myfirstproject/hello/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -526,6 +530,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Solutions/Mar18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Solutions/mtd_march18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="101" column="34" lean-forward="false" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+          <folding>
+            <element signature="e#66#146#0" expanded="false" />
+            <element signature="e#183#514#0" expanded="false" />
+            <element signature="e#555#871#0" expanded="false" />
+            <element signature="e#902#1018#0" expanded="false" />
+            <element signature="e#1138#1481#0" expanded="false" />
+            <element signature="e#1513#2633#0" expanded="false" />
+            <element signature="e#2675#4032#0" expanded="false" />
+            <element signature="e#4074#4675#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
