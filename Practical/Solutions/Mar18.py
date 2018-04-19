@@ -1,16 +1,18 @@
-from Practical.Solutions.mtd_march18 import conteo_filas,conteo_smaterter,list_avarage,\
-    conteo,smart_avarage,mayor_list,mayor_list_dictionary
+from Practical.Solutions.mtd_march18 import *
 #import conteo_filas,conteo_smaterter,list_avarage,conteo,smart_avarage from Python_QuickCourse.Practical.Solutions.mtd_march18
 
-########### Solutions ################
-file=   open("E:\\Sources\\rawdata.csv", "r")  #open ("C:\\Users\\Todos\\Documents\\Salaries\\Salaries\\rawdata.csv", "r")
+################ Solutions ##########################
+file= open ("C:\\Users\\Hewlett Packard\\Documents\\Documentos Python\\rawdata.csv", "r")      #open("E:\\Sources\\rawdata.csv", "r")
 new_file= []
 lengu_file= []
-Pythonsalary_list = []
 PythonUniver_List = []
+Pythonsalary_list = []
 studies_list= []
 year_list= []
 city= []
+Bogota_List= []
+Bogota_Salary= []
+Java_Salary= []
 #next(file)
 for e in file:
    z= e.split(",")
@@ -28,6 +30,19 @@ for e in file:
 
    if (z[11] == "Python"): # If programming language is python
        year_list.append(z[27])
+
+  ### Point 8
+   if ( "bogota" in z[32].lower()):
+       Bogota_List.append(z[11])
+       Bogota_Salary.append(z[19])
+
+   if  ("Java" in Bogota_List):
+       Java_Salary.append(z[19])
+
+print(Java_Salary)
+#print(Bogota_List)
+
+
 
 
 """
@@ -77,5 +92,10 @@ for i in listtest:
 
 print(maximo)
 """
+#print(mayor_list(lengu_file))
+print(mayor_list(Bogota_List))
+suma= 0
+for e in Java_Salary:
+    suma = suma + int(e)
+print(suma)
 
-mayor_list(lengu_file)

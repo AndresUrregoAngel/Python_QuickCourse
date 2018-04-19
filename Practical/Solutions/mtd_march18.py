@@ -99,6 +99,7 @@ def mayor_list (Plist):
             print('the most popular language programming is:',languages)
 
 
+
 def mayor_list_dictionary (Plist):
     counter_file = {}  # This is a dictionary structure
 
@@ -125,10 +126,55 @@ def mayor_list_dictionary (Plist):
             print('the most popular language programing is {} with {} number of developers'.format(k,v))
 
 
-def mayor_list_oldversion (Plist):
+def mayor_list_avg (Plist,listSalary):
     item_unique = []
-    counter_file= []
-    max_item= []
+    counter_file = []
+    lengu_file= []
+    item_file = []
+
+    """This for is used to create a list with a unique language programming"""
+    for item in Plist:
+        if (item not in item_unique):
+            item_unique.append(item)
+
+    """This for is used to create a list with the counter of language programming
+        from the original list"""
+    for item in item_unique:
+        counter = 0
+        for line in Plist:
+            if (line == item):
+                counter = counter + 1
+        counter_file.append((item,counter)) # I leave this line at the same level of the for by item
+        item_file.append(item)
+
+    maximo= 0 # variable used to store the maximum value
+
+    """This loop is used to find out the maximum value of counter by 
+        language programming and save it in a variable"""
+    for languages in counter_file:
+        if (languages[1] > maximo):
+            maximo = languages[1]
+
+    """Looking for the language within the list that match the 
+        value of the variable maximum"""
+    for languages in counter_file:
+        if(languages[1]== maximo):
+            lengu_file.append(maximo)
+            print('the most popular language programming is:',languages)
+    maximo= 0
+    counter= 0
+    for max in item_file:
+        counter = counter + 1
+        if (counter[1]> maximo):
+            maximo = counter
+
+
+"""
+    for max in item_file:
+       # if (max [1] == maximo):)
+ """
+def Avg_smaterter (Plist, Salary):
+    item_unique = []
 
     for item in Plist:
         if (item not in item_unique):
@@ -141,17 +187,4 @@ def mayor_list_oldversion (Plist):
         for line in Plist:
             if(line == item):
                 counter = counter + 1
-                counter_file.append(counter)
-
-
-    maximo= 0
-    for i in range(len(counter_file)):
-        if (counter_file[i] > maximo):
-            maximo = counter_file[i]
-    if (maximo == i):
-        max_item.append(item)
-
-
-    print("The are more in:", item, 'wdk',maximo)
-
-    return max_item
+        print("-In ",item.lower(), "There are:",counter)
